@@ -1,8 +1,18 @@
 body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; background: #fff; }
-header { text-align: center; padding: 40px 20px; border-bottom: 1px solid #eee; }
+header { text-align: center; padding: 40px 20px; border-bottom: 1px solid #eee; background: #f9f9f9; }
+.header-content { max-width: 800px; margin: 0 auto; }
 .profile-photo { width: 150px; height: 150px; border-radius: 50%; margin-bottom: 10px; }
-.tagline { font-style: italic; color: #555; }
-.contact { font-size: 0.9em; color: #777; }
+.tagline { font-style: italic; color: #555; margin: 5px 0; }
+.contact { font-size: 0.9em; color: #777; margin: 10px 0; }
+.contact i { margin-right: 5px; }
+.bio { max-width: 600px; margin: 20px auto 0; font-size: 0.95em; color: #444; text-align: left; }
+
+nav { background: #fff; border-bottom: 1px solid #eee; padding: 10px 0; text-align: center; }
+nav ul { list-style: none; margin: 0; padding: 0; }
+nav li { display: inline; margin: 0 15px; }
+nav a { color: #3498db; text-decoration: none; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+
 main { max-width: 800px; margin: 0 auto; padding: 20px; }
 section { margin: 30px 0; }
 h2 { color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 5px; }
@@ -11,4 +21,4 @@ a { color: #3498db; text-decoration: none; }
 footer { text-align: center; font-size: 0.8em; color: #777; border-top: 1px solid #eee; padding: 10px 0; margin-top: 40px; }
 
 /* Responsive */
-@media (max-width: 768px) { main { padding: 10px; } .profile-photo { width: 120px; height: 120px; } }
+@media (max-width: 768px) { main { padding: 10px; } .profile-photo { width: 120px; height: 120px; } nav li { display: block; margin: 10px 0; } }
